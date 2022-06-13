@@ -1,0 +1,156 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: teal;
+}
+.header{
+    width: 100%;
+    height: 230px;
+    background:url(../img/header_bg.jpg)
+}
+.header img{
+    width: 10%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#h1header{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.h3header{
+    text-align: center;
+    color: white;
+}
+.nav{
+    background-color: rgb(1, 53, 53);
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
+.nav ul li{
+    display:inline;
+}
+.nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: inherit; 
+}
+.nav  ul li a:hover{
+    background-color: lightskyblue;
+}
+#carrinho{
+    float: right;
+}
+.sec1{
+    float: left;
+    width: 70%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.sec1 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+.aside{
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+    height: 355px;
+    padding: 12px;
+    margin-top: 75px; 
+    margin-left: 1%;
+}
+.aside iframe{
+    width: 65%;
+    height: 65%;
+    margin-left: 18%;
+}
+.aside1{
+    padding: 12px;
+    display: inline-block;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 25%;
+}
+.aside1 img{
+    width: 80%;
+    margin-left: 10%;
+}
+.aside2{
+    padding: 12px;
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+    margin-left: 1%;
+    margin-top: 75px; 
+}
+.aside2 img{
+    width: 80%;
+    margin-left: 10%;
+}
+.aside3{
+    padding: 12px;
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+    margin-left: 1%;
+    margin-top: 75px; 
+}
+.aside3 img{
+    width: 80%;
+    margin-left: 10%;
+}
+.asidef{
+    padding: 12px;
+    margin-left: 1%;
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+    height: 130px;
+    margin-top: 75px;
+}
+.aside img{
+    width: 70%;
+}
+.asidef h2{
+    margin: 10px;
+}
+.asidef input{
+    margin-left: 1%;
+    width: 90%;
+    display: block;
+    margin: 10px;
+    border-radius: 3px;
+    border: solid 1px black ;
+}
+#cadastrar{
+    background-color: rgb(78, 149, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5%;
+    width: 25%;
+}
+#cadastrar:hover{
+    background-color: rgb(126, 176, 252) ;
+}
+
+#footer{
+    display: block;
+    background-color: black;
+    width: 98%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
